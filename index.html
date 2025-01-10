@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory-game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+<header>
+    <div class="menu">
+        <div class="container">
+            <div class="menu__head">            
+                <div class="menu__open">
+                    <img src="images/menu.svg" alt="">
+                </div>
+                <div class="menu__title">
+                    <h2 class="menu__title-text">Menu</h2>
+                </div>
+        </div>
+        </div>
+    </div>
+</header> 
+<main>
+    <div class="other__game game">
+        <div class="close_menu">
+            <div class="game__button">
+                <img src="images/close2.svg" alt="">
+            </div>
+            <div class="menu__name title">
+                Menu
+            </div>
+        </div>
+        <div class="game__body">
+            <div class="game__column coloring_game-menu">
+                <div class="game__name">
+                    <h3 class="game__title title">Coloring Book</h3>
+                </div>
+                <div class="game__captune">
+                    <a href="https://viktoria-webdev.github.io/coloring-game/" class="coloring-link"><img src="images/coloring.png" alt="" ></a>
+                </div>
+            </div>
+            <div class="game__column tictac_game-menu">
+                <div class="game__name">
+                    <h3 class="game__title title">TicTacToe</h3>
+                </div>
+                <div class="game__captune">
+                    <a href="https://viktoria-webdev.github.io/tictac/" class="link-tictac"><img src="images/tictactoe.png" alt="" ></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+     <div class="inner">
+         <div class="container">
+             <div class="memory_body">
+                 <div class="rules">
+                     <div class="rules__top">
+                         <div class="rules__button">
+                             <img src="images/close.svg" alt="">
+                         </div>
+                         <div class="rules__title">
+                             <h2 class="rules__title-text">Rules</h2>
+                         </div>
+                     </div>
+                     <div class="memory-rules">
+                         <div class="rules-item">
+                             <img src="images/rule_memory.png" alt="">
+                             <p class="rule_description">You have only 7 seconds to remember</p>
+                         </div>
+                         <div class="rules-item">
+                             <img src="images/board_memory.png" alt="">
+                             <p class="rule_description">
+                                 It is necessary to restore the numbers in order. No more than three mistakes
+                             </p>
+                         </div>
+                         <div class="rules-item">
+                             <img src="images/memory.png" alt="">
+                             <p class="rule_description">
+                                 <span>Use</span> <img src="images/arrows.png" alt="" class="arrows"> <span>to move and</span><img src="images/enter.png" alt="" class="enter"> <span>to select</span>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="memory_game-body">
+                     <h1 class="title">Memory</h1>
+                     <button class="start_game-memory">Start game</button>
+                     <div class="gamefield">
+                     </div>
+                     <div class="info__memory"></div>
+                     <div class="restart__game">
+                         <button class="restart-button">Restart</button>
+                     </div>
+                     <div class="controls">
+                        <button class="up">↑</button>
+                        <button class="down">↓</button>
+                        <button class="left">←</button>
+                        <button class="right">→</button>
+                        <button class="space">⏎</button>
+                    </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+</main>
+<script src="js/memory.js"></script>
+
+</body>
+</html>
